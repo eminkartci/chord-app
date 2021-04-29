@@ -22,6 +22,4 @@ app.get('/status', (req,res) => {
 
 
 // Listen
-app.listen(process.env.PORT || 8081, () => ({ 
-    console.log("App is listening " + 8081)
-}))
+app.listen(process.env.PORT || 8081)
